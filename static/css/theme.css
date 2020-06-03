@@ -1,0 +1,13 @@
+.card{
+    border:3px solid;
+}
+#game.card:hover {
+    border-color:green;
+}
+#cart.card:hover {
+    border-color:red;
+}
+.material-icons {
+    color:white;
+
+}
