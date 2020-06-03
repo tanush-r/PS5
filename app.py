@@ -126,7 +126,7 @@ def cart():
 
 
 def connect_db():
-    sql = sqlite3.connect('sqlite3/ps5.db')
+    sql = sqlite3.connect('/home/tanushr/PS5/sqlite3/ps5.db')
     sql.row_factory = sqlite3.Row
     return sql
 
